@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/styles/globalStyles.css" />
+    <link rel="stylesheet" href="./src/styles/index.css" />
+    <title>Open Music</title>
+  </head>
+  <body>
+    <header class="header_container" >
+      <h1 class="header_title" >open music</h1>
+      <button class="header_button" >Color mode</button>
+    </header>
+    <main>
+      <nav class="nav_container" >
+        <h3 class="nav_title" >Gênero musical</h3>
+        <div class="nav_button-container" >
+          <button id="Todos" name="category" value="0"  class="nav__button">Todos</button>
+          <button id="Pop" name="category" value="1"  class="nav__button">Pop</button>
+          <button id="MPB" name="category" value="2"  class="nav__button">MPB</button>
+          <button id="Forró" name="category" value="3"  class="nav__button">Forró</button>
+          <button id="Samba" name="category" value="4"  class="nav__button">Samba</button>
+          <button id="Baião" name="category" value="5"  class="nav__button">Baião</button>
+          <button id="Rap" name="category" value="6"  class="nav__button">Rap</button>
+          <button id="Hiphop" name="category" value="7"  class="nav__button">Hiphop</button>
+          <button id="Rock"  name="category" value="8"  class="nav__button">Rock</button>
+          <button id="Reggae"  name="category" value="9"  class="nav__button">Reggae</button>
+          <button id="Country" name="category" value="10" class="nav__button">Country</button>
+          <button id="Gospel" name="category" value="11" class="nav__button">Gospel</button>
+        </div>
+      </nav>
+      <section class="range_container">
+        <div class="price_container">
+          <h3 class="price_title">Definir preço</h3>
+          <p class="price_value">até<span id="span"></span></p>
+        </div>
+        <input id="inputRange" type="range" min="0" max="200" step="1" value="200">
+      </section>
+      <section class="cards_container">
+        <h3 class="cards_title" >Albúns encontrados</h3>
+        <ul class="ul_container" ></ul>
+      </section>
+    </main>
+    <script src="./src/scripts/theme.js"></script>
+    <script src="./src/scripts/productsData.js"></script>
+    <script src="./src/scripts/index.js"></script>
+  </body>
+</html>

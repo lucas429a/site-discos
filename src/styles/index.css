@@ -1,0 +1,147 @@
+/* Desenvolva sua estilização aqui ... */
+body{
+    background-color: var(--color-grey-9);
+    position: relative;
+}
+.header_container{
+    display: flex;
+    justify-content: space-around;
+    margin: 5rem 5rem;
+}
+.header_title{
+    font-weight: 600;
+    font-size: var(--font-1);
+    color: var(--color-grey-1);
+}
+.header_button{
+    padding: 0.3125rem;
+    color: var(--color-grey-2);
+    background-color: var(--color-grey-8);
+    font-weight: 500;
+    font-size: var(--font-3);
+}
+.nav_container{
+    display: flex;
+    flex-direction: column;
+    margin: 5rem 30rem;
+}
+.nav_title{
+    font-weight: 600;
+    font-size: var(--font-2);
+    line-height: 19px;
+    color: var(--color-grey-1);
+}
+.nav_button-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2.125rem;
+    height: 14.6875rem;
+    width: 50rem;
+}
+.nav__button{
+    font-weight: 500;
+    font-size: var(--font-3);
+    color: var(--color-grey-2);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding: 1rem 1rem;
+    border: 0.0625rem solid var(--color-grey-8);
+    background-color: var(--color-grey-8);
+    border-radius: var(--radius-1)
+}
+.nav__button:focus{
+    background-color: var(--color-grey-1);
+    color: var(--color-grey-8);
+}
+.range_container{
+    display: flex;
+    flex-direction: column;
+    margin: 5rem 30rem;
+    gap: 1rem;
+}
+.price_container{
+    display: flex;
+    justify-content: space-around;
+}
+.price_title{
+    font-weight: 600px;
+    font-size: var(--font-2);
+    color: var(--color-grey-1);
+}
+.price_value{
+    font-weight: 500px;
+    font-size: var(--font-2);
+    color: var(--color-grey-2);
+}
+#inputRange{
+    background: var(--color-brand-1);
+}
+.cards_container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start ;
+    align-items: center;
+}
+.cards_title{
+    font-weight: 600;
+    font-size: var(--font-2);
+    color: var(--color-grey-1);
+    margin-bottom: 2rem;
+    margin-right: 56rem
+}
+.ul_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+    margin: 5rem 30rem;
+    
+}
+.Li_container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: var(--color-grey-8);
+}
+.Li_img{
+    height: 7.0625rem;
+    width: 19.25rem;
+}
+.Li_paragraph{
+    font-weight: 500px;
+    font-size: var(--font-3);
+    color: var(--color-grey-2);
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+}
+.Li_h2{
+    font-weight: 600px;
+    font-size: var(--font-2);
+    color: var(--color-grey-1);
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+}
+.Li_span-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    justify-content: space-around;
+}
+.Li_span-btn{
+    border: none;
+    color: var(--color-grey-2);
+    font-weight: 500px;
+    font-size: var(--font-3);
+    margin-left: 12rem;
+    background-color: var(--color-grey-8);
+}
+.Li_span-price{
+    font-weight: 600px;
+    font-size: var(--font-3);
+    color: var(--color-grey-1);
+}
